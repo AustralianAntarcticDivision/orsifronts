@@ -7,4 +7,4 @@ Description: A data set package with the Orsi fronts as a SpatialLinesDataFrame.
 License: GPL-3
 LazyData: TRUE
 RoxygenNote: 5.0.1
-Depends: sp
+Imports: sp
