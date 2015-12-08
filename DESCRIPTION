@@ -1,0 +1,8 @@
+Package: orsifronts
+Type: Package
+Title: What the Package Does (Title Case)
+Version: 0.1.0
+Authors@R: person("Michael D.","Sumner", role = c("aut", "cre"), email = "mdsumner@gmail.com")
+Description: More about what it does (maybe more than one line)
+License: GPL-3
+LazyData: TRUE
