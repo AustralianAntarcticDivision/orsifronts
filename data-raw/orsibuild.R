@@ -19,4 +19,10 @@ parsefr <- function(x) {
 
 txt <- lapply(names(frontnames), function(x) readLines(sprintf("data-raw/%s.txt", x)))
 
-lapply(lapply(txt, splitfr), parsefr)
+pnum <- lapply(lapply(txt, splitfr), parsefr)
+
+orsifronts <- SpatialLinesDataFrame(
+  SpatialLines(lapply(seq_along(pnum), function(x) Lines(pnum[[x]], names(frontnames)[x])), proj4string = CRS("+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs +towgs84=0,0,0")),
+  data.frame(name = frontnames, front = names(frontnames), row.names = names(frontnames), stringsAsFactors = FALSE))
+
+save(orsifronts, file = "data/orsifronts.rdata")

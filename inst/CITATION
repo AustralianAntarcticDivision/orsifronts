@@ -1,0 +1,15 @@
+citHeader("To cite the Orsi fronts data in this package use:")
+
+citEntry(entry = "Article",
+  title        = "On the meridional extent and fronts of the Antarctic Circumpolar Current",
+  author       = "Orsi, A. H., T. Whitworth III and W. D. Nowlin, Jr.",
+  journal      = "Deep-Sea Research I",
+  year         = "1995",
+  volume       = "42",
+  pages        = "641--673",
+  url          = "http://woceatlas.tamu.edu/Sites/html/atlas/SOA_DATABASE_DOWNLOAD.html",
+  textVersion = paste("Orsi, A. H., T. Whitworth III and W. D. Nowlin, Jr., 1995:",
+                      "On the meridional extent and fronts of the Antarctic Circumpolar Current,",
+                      "Deep-Sea Research I, 42, 641-673.")
+                      )
+

@@ -1,8 +1,10 @@
 Package: orsifronts
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Southern Ocean Frontal Distributions (Orsi)
 Version: 0.1.0
 Authors@R: person("Michael D.","Sumner", role = c("aut", "cre"), email = "mdsumner@gmail.com")
-Description: More about what it does (maybe more than one line)
+Description: A data set package with the Orsi fronts as a SpatialLinesDataFrame.
 License: GPL-3
 LazyData: TRUE
+RoxygenNote: 5.0.1
+Depends: sp
