@@ -8,8 +8,9 @@ Description: A data set package with the "Orsi" fronts as a
     the Southern Ocean Atlas Database Page, please see package CITATION for details.
 License: GPL-3
 LazyData: TRUE
-RoxygenNote: 5.0.0
+RoxygenNote: 5.0.1
 Depends:
     sp
-Suggests: knitr
+Suggests:
+    knitr
 VignetteBuilder: knitr
