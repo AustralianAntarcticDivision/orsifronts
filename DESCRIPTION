@@ -11,3 +11,4 @@ LazyData: TRUE
 RoxygenNote: 5.0.0
 Depends:
     sp
+VignetteBuilder: knitr
