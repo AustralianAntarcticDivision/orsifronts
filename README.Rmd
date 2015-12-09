@@ -28,15 +28,17 @@ The data is provided in this package as a built-in data set. The object `orsifro
 library(orsifronts)
 cols <- hcl(seq(0, 240, length = nrow(orsifronts)), c = 50)
 plot(orsifronts, col = cols, lwd = 2)
-
+degAxis(1)
+degAxis(2)
+box()
 ```
 
 There are `nrow(orsifronts)` line objects, with some simple names and codes. 
 
 ```{r}
 as.data.frame(orsifronts)
-plot(orsifronts, xlim = c(130, 18), col = cols, asp = 1/cos(60 * pi / 180), lwd = 4)
-legend("topleft", sprintf("%s (%s)", orsifronts$front, orsifronts$name),  col = cols, lwd = 4, cex = 0.8)
+plot(orsifronts, xlim = c(130, 18), col = cols, asp = 1/cos(55 * pi / 180), lwd = 4)
+legend("topleft", sprintf("%s (%s)", orsifronts$front, orsifronts$name),  col = cols, lwd = 4, cex = 0.8, bty = "n")
 degAxis(1)
 degAxis(2)
 box()

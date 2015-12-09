@@ -11,6 +11,9 @@ library(orsifronts)
 #> Loading required package: sp
 cols <- hcl(seq(0, 240, length = nrow(orsifronts)), c = 50)
 plot(orsifronts, col = cols, lwd = 2)
+degAxis(1)
+degAxis(2)
+box()
 ```
 
 ![](README-unnamed-chunk-2-1.png)
@@ -25,8 +28,8 @@ as.data.frame(orsifronts)
 #> pf                                               Polar front    pf
 #> saccf           Southern Antarctic circumpolar current front saccf
 #> sbdy  Southern Boundary of the Antarctic circumpolar current  sbdy
-plot(orsifronts, xlim = c(130, 18), col = cols, asp = 1/cos(60 * pi / 180), lwd = 4)
-legend("topleft", sprintf("%s (%s)", orsifronts$front, orsifronts$name),  col = cols, lwd = 4, cex = 0.8)
+plot(orsifronts, xlim = c(130, 18), col = cols, asp = 1/cos(55 * pi / 180), lwd = 4)
+legend("topleft", sprintf("%s (%s)", orsifronts$front, orsifronts$name),  col = cols, lwd = 4, cex = 0.8, bty = "n")
 degAxis(1)
 degAxis(2)
 box()
