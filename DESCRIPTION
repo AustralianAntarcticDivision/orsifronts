@@ -1,9 +1,9 @@
 Package: orsifronts
 Type: Package
 Title: Southern Ocean Frontal Distributions (Orsi)
-Version: 0.1.0
+Version: 0.1.1
 Authors@R: person("Michael D.","Sumner", role = c("aut", "cre"), email = "mdsumner@gmail.com")
-Description: A data set package with the Orsi fronts as a SpatialLinesDataFrame.
+Description: A data set package with the "Orsi" fronts as 'SpatialLinesDataFrame' objects. The Orsi et al. (1995) fronts are published at the Southern Ocean Atlas Database Page, please see package CITATION for details. 
 License: GPL-3
 LazyData: TRUE
 RoxygenNote: 5.0.1
