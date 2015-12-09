@@ -4,7 +4,7 @@
 \name{orsifronts}
 \alias{orsifronts}
 \title{Orsi fronts.}
-\format{A SpatialLinesDataFrame with variables: \code{name}, \code{front}.}
+\format{A \link[sp]{SpatialLinesDataFrame} with variables: \code{name}, \code{front}.}
 \usage{
 orsifronts
 }
