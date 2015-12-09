@@ -36,7 +36,8 @@ There are `r nrow(orsifronts)` line objects, with some simple names and codes.
 ```{r}
 as.data.frame(orsifronts)
 plot(orsifronts, xlim = c(60, 180), col = cols, asp = 1/cos(55 * pi / 180), lwd = 4)
-legend("topleft", sprintf("%s (%s)", orsifronts$front, orsifronts$name),  col = cols, lwd = 4, cex = 0.8, bty = "n")
+legend("topleft", sprintf("%s (%s)", orsifronts$front, orsifronts$name),  
+       col = cols, lwd = 4, cex = 0.8, bty = "n")
 degAxis(1)
 degAxis(2)
 box()
