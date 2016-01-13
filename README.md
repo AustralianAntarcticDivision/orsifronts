@@ -1,4 +1,8 @@
 <!-- README.md is generated from README.Rmd. Please edit that file -->
+[![Travis-CI Build Status](https://travis-ci.org/mdsumner/orsifronts.svg?branch=master)](https://travis-ci.org/mdsumner/orsifronts)
+[![](http://www.r-pkg.org/badges/version/orsifronts)](http://www.r-pkg.org/pkg/orsifronts)
+[![](http://cranlogs.r-pkg.org/badges/orsifronts)](http://www.r-pkg.org/pkg/orsifronts)
+
 Orsi fronts in Spatial form
 ---------------------------
 
