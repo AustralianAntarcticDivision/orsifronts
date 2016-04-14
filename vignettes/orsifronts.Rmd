@@ -9,7 +9,7 @@ vignette: >
   \usepackage[utf8]{inputenc}
 ---
 
-
+[![Travis-CI Build Status](https://travis-ci.org/mdsumner/orsifronts.svg?branch=master)](https://travis-ci.org/mdsumner/orsifronts)
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(collapse = TRUE, comment = "#>", fig.width = 7, fig.height = 7)
 ```
