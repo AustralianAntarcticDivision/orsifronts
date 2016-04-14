@@ -12,5 +12,5 @@ RoxygenNote: 5.0.1
 Depends:
     sp
 Suggests:
-    knitr
+    knitr, rmarkdown
 VignetteBuilder: knitr
