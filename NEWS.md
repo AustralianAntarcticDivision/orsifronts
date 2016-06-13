@@ -1,3 +1,7 @@
+# dev
+
+* added supporting information to package
+
 # orsifronts 0.1.1
 
 * added detail to DESCRIPTION, thanks CRAN for the note. 
