@@ -14,5 +14,5 @@ Depends:
 Suggests:
     knitr, rmarkdown
 VignetteBuilder: knitr
-URL: https://github.com/mdsumner/orsifronts
-BugReports: https://github.com/mdsumner/orsifronts/issues
+URL: https://github.com/AustralianAntarcticDivision/orsifronts
+BugReports: https://github.com/AustralianAntarcticDivision/orsifronts/issues
