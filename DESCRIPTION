@@ -12,7 +12,8 @@ RoxygenNote: 5.0.1
 Depends:
     sp
 Suggests:
-    knitr, rmarkdown
+    knitr, rmarkdown,
+    covr
 VignetteBuilder: knitr
 URL: https://github.com/AustralianAntarcticDivision/orsifronts
 BugReports: https://github.com/AustralianAntarcticDivision/orsifronts/issues
