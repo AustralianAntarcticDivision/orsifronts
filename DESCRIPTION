@@ -15,5 +15,5 @@ Suggests:
     knitr, rmarkdown,
     covr
 VignetteBuilder: knitr
-URL: https://github.com/AustralianAntarcticDivision/orsifronts
+URL: https://AustralianAntarcticDivision.github.io/orsifronts
 BugReports: https://github.com/AustralianAntarcticDivision/orsifronts/issues
