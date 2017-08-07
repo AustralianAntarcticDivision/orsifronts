@@ -17,3 +17,5 @@ Suggests:
 VignetteBuilder: knitr
 URL: https://AustralianAntarcticDivision.github.io/orsifronts
 BugReports: https://github.com/AustralianAntarcticDivision/orsifronts/issues
+Roxygen: list(markdown = TRUE)
+ByteCompile: true
