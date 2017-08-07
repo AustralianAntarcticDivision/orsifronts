@@ -1,0 +1,46 @@
+ftp://ftp.marine.csiro.au/pub/sokolov/ACCfronts_online/yearly
+
+ACCfronts_yyyy.mat
+
+Mean ACC fronts' positions in particular year 
+(yyyy) plotted using circumpolar      
+mean labels: Fronts.x,.y{ifront,isegment}      
+The fronts from south to north are             
+  1 - Bdy                                      
+  2 - SACCF-S                                  
+  3 - SACCF-N                                  
+  4 - PF-S                                     
+  5 - PF-M                                     
+  6 - PF-N                                     
+  7 - SAF-S                                    
+  8 - SAF-M                                    
+  9 - SAF-N                                    
+ 10 - SAZ/STZ-S                                
+ 11 - SAZ/STZ-M                                
+ 12 - SAZ/STZ-N                                
+
+
+Fronts from ACCfronts_mean.mat are also saved as 
+ascii files: Bdy, PF-M, PF-N, PF-S, sACCf-N, 
+sACCf-S, SAF-M, SAF-N, SAF-S (longitude, latitude, segment number).
+
+Mean front positions during 1992 and 2009 are statistically weak 
+measures of the annual mean values since they are based on 
+last 12 and first 7 weeks of altimetry data respectively.
+
+
+
+Refs: 
+
+
+Sokolov, S., and S. R. Rintoul (2009a), Circumpolar structure and distribution 
+of the Antarctic Circumpolar Current fronts: 1. Mean circumpolar paths, 
+J. Geophys. Res., 114, C11018, doi:10.1029/2008JC005108.
+
+Sokolov, S., and S. R. Rintoul (2009b), Circumpolar structure and distribution 
+of the Antarctic Circumpolar Current fronts: 2. Variability and relationship to 
+sea surface height, J. Geophys. Res., 114, C11019, doi:10.1029/2008JC005248.
+
+
+
+
