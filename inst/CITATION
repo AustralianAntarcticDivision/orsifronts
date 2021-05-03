@@ -1,15 +1,34 @@
-citHeader("To cite the Orsi fronts data in this package use:")
+citHeader("To cite the fronts data in this package use:")
 
 citEntry(entry = "Article",
   title        = "On the meridional extent and fronts of the Antarctic Circumpolar Current",
-  author       = "Orsi, A. H., T. Whitworth III and W. D. Nowlin, Jr.",
+  author       = personList(as.person("A. H. Orsi"), as.person("T. Whitworth III"), as.person("W. D. Nowlin Jr.")),
   journal      = "Deep-Sea Research I",
   year         = "1995",
   volume       = "42",
   pages        = "641--673",
-  url          = "http://woceatlas.tamu.edu/Sites/html/atlas/SOA_DATABASE_DOWNLOAD.html",
+  note          = "originally found at http://woceatlas.tamu.edu/Sites/html/atlas/SOA_DATABASE_DOWNLOAD.html",
   textVersion = paste("Orsi, A. H., T. Whitworth III and W. D. Nowlin, Jr., 1995:",
                       "On the meridional extent and fronts of the Antarctic Circumpolar Current,",
                       "Deep-Sea Research I, 42, 641-673.")
                       )
+
+
+citEntry(entry = "Article",
+  title        = "Observations of the Antarctic Circumpolar Current over the Udintsev Fracture Zone, the narrowest choke point in the Southern Ocean.",
+  author       = personList(as.person("Y.‐H. Park"), as.person("T. Park"), as.person("T.‐W. Kim") , as.person("S.‐H. Lee"), as.person("C.‐S. Hong"),
+ as.person("J.‐H. Lee"), as.person("M.‐H. Rio"), as.person("M.‐I. Pujol"), as.person("M. Ballarotta"), as.person("I. Durand"),
+as.person("C. Provost")),
+  journal      = "Journal of Geophysical Research: Oceans,",
+  year         = "2019",
+  volume       = "124",
+  pages        = "4511-4528",
+  url          = "https://www.seanoe.org/data/00486/59800/",
+  textVersion = "Park Y.‐H., Park T., Kim T.‐W., Lee S.‐H., Hong C.‐S., Lee J.‐H., Rio M.‐H., Pujol M.‐I., Ballarotta M., Durand I., Provost C. (2019). Observations of the Antarctic Circumpolar Current over the Udintsev Fracture Zone, the narrowest choke point in the Southern Ocean. Journal of Geophysical Research: Oceans, -. https://doi.org/10.1029/2019JC015024"
+                      )
+
+
+
+
+
 

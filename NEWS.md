@@ -1,4 +1,10 @@
-# dev
+# orsifronts 0.2.0
+
+* Fixed URLs and links. 
+
+* rmarkdown now Suggests, thanks to CRAN.
+
+* Added `parkfronts` data set. 
 
 * added supporting information to package
 
