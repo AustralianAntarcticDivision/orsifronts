@@ -4,18 +4,17 @@
 Status](https://travis-ci.org/AustralianAntarcticDivision/orsifronts.svg?branch=master)](https://travis-ci.org/AustralianAntarcticDivision/orsifronts)
 [![AppVeyor Build
 Status](https://ci.appveyor.com/api/projects/status/github/AustralianAntarcticDivision/orsifronts?branch=master&svg=true)](https://ci.appveyor.com/project/AustralianAntarcticDivision/orsifronts)
-[![](http://www.r-pkg.org/badges/version/orsifronts)](http://www.r-pkg.org/pkg/orsifronts)
-[![](http://cranlogs.r-pkg.org/badges/orsifronts)](http://www.r-pkg.org/pkg/orsifronts)
 [![Coverage
 Status](https://img.shields.io/codecov/c/github/AustralianAntarcticDivision/orsifronts/master.svg)](https://codecov.io/github/AustralianAntarcticDivision/orsifronts?branch=master)
 
 ## Orsi and Park/Durand fronts in Spatial form
 
 The “Orsi fronts” are a commonly used climatological map of Southern
-Ocean frontal distributions, published on the [Southern Ocean Atlas
-Database
-Page](http://woceatlas.tamu.edu/Sites/html/atlas/SOA_DATABASE_DOWNLOAD.html)
-after Orsi et al. (1995).
+Ocean frontal distributions, published on the Southern Ocean Atlas
+Database Page after Orsi et al (1995).
+
+(This page once was at an old link now listed in this package CITATION
+file as a note).
 
 The “Park/Durand” fronts are a recent update on the locations of the
 fronts from altimetry data, at the [SEANOE Altimetry-derived Antarctic
