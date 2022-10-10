@@ -27,7 +27,11 @@ devtools::use_data(srfronts)
 yfiles <- tibble::tibble(fullname = list.files("data-raw/sokolov-rintoul-source/yearly", full.names = TRUE, pattern = "mat$"))
 x <- R.matlab::readMat(yfiles$fullname[1])
 ## this loses the object level grouping so need to unpick that a bit more
-lon <- dplyr::bind_rows(unlist(rapply(x$Fronts[[1]], classes = "matrix", f = function(y) tibble::tibble(x = as.vector(y)), how = "replace"), recursive = FALSE), .id = "blah")
+lon <- dplyr::bind_rows(unlist(rapply(x$Fronts[[1]], 
+                                      classes = "matrix", 
+                                      f = function(y) tibble::tibble(x = as.vector(y)), 
+                                      how = "replace"), recursive = FALSE), 
+                        .id = "blah")
 lat <- dplyr::bind_rows(unlist(rapply(x$Fronts[[2]], classes = "matrix", f = function(y) tibble::tibble(y = as.vector(y)), how = "replace"), recursive = FALSE), .id = "blah")
 
 d <- bind_cols(lon, lat %>% select(-blah))
