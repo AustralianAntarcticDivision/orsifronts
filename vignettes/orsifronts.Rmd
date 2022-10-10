@@ -1,10 +1,10 @@
 ---
-title: "Orsi Fronts for R"
+title: "Southern Ocean Fronts for R"
 author: "Michael Sumner"
 date: "`r Sys.Date()`"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{orsifronts}
+  %\VignetteIndexEntry{Southern Ocean Fronts for R}
   %\VignetteEngine{knitr::rmarkdown}
   \usepackage[utf8]{inputenc}
 ---
@@ -13,11 +13,12 @@ vignette: >
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(collapse = TRUE, comment = "#>", fig.width = 7, fig.height = 7)
 ```
+
 Orsi fronts for R
 ---------------------------
 
-The "Orsi fronts" are a commonly used climatological map of Southern Ocean frontal distributions, published on the
-[Southern Ocean Atlas Database Page](http://woceatlas.tamu.edu/Sites/html/atlas/SOA_DATABASE_DOWNLOAD.html) after Orsi et al. (1995). 
+The "Orsi fronts" are a commonly used climatological map of Southern Ocean frontal distributions, once published on a
+Southern Ocean Atlas Database Page after Orsi et al. (1995). 
 
 
 The data is provided in this package as a built-in data set. The object `orsifronts` is a 'SpatialLinesDataFrame' object, as defined in the 'sp' package. (A 'SpatialLinesDataFrame' is a "GIS vector" layer where complex line geometry objects are linked to simple attribute data in a table form, and it behaves like a 'data.frame'). 
@@ -44,6 +45,22 @@ box()
 ```
 
 
+
+Park/Durand fronts for R
+---------------------------
+
+Similarly for the more recent Park/Durand fronts derived from altimetry remote sensing. 
+
+```{r}
+as.data.frame(parkfronts)
+pcols <- hcl(seq(0, 240, length = nrow(parkfronts)), c = 50)
+plot(parkfronts,col = pcols, asp = 1/cos(55 * pi / 180), lwd = 4)
+legend("topleft", sprintf("%s (%s)", parkfronts$front, parkfronts$name),  
+       col = cols, lwd = 4, cex = 0.8, bty = "n")
+degAxis(1)
+degAxis(2)
+box()
+```
 
 # References
 
